@@ -46,15 +46,14 @@ Estudo de Caso:
 Vivemos em um mundo altamente conectado, o número de pessoas e agora até dispositivos conectados e gerando dados está na casa do bilhões o volume de dados e imenso demandando o desenvolvimento de novas tecnologias que possibilitem análise e exploração desses dados. Porém a corrida no desenvolvimento dessas tecnologias culminou na gama ferramentas, técnicas,  modelos arquiteturais que prometem agilizar e ou viabilizar o trabalho de análise inclusive perto de  tempo real para alguns casos. Considerando este cenário uma linha de ferramentas flexíveis e configuráveis tornam-se obrigatórias o Docker se apresenta como uma plataforma viável para a criação de ambientes heterogéneos de pesquisa possibilitando a execução virtualmente de qualquer tipo de experimentação seja de exploração de dados, comparações, processamento, etc. E tudo isso aproveitando um mesmo conjunto de hardware. Este trabalho tem por objetivo apresentar um estudo de caso utilizando diversas dessas tecnologias sendo executadas em um ambiente dockerizado demonstrando a otimização e compartilhamento de recursos, execução de diferentes experimentos, usando python e r como linguagens de programação , spark como plataforma de processamento distribuído e execução de técnicas analíticas, cassandra como banco de dados ze persistência dos dados para análise e visualização e Júpiter como interface de programação para os pesquisadores realozarem o trabalho. O ambiente construído. .....
 
 **Introdução II**
-Ambientes de desenvolvimento, pesquisa e inovação têm como atividade inerente a criação e experimentação. Projetos de grande porte podem ter início na concepção de provas de conceito ou demonstrações em pequena escala. Estas passam a ganhar maior complexidade ou demanda à medida em que expectativas e ideias são postas à prova e o projeto se desenvolve. Nesse trajeto de desenvolvimento, há diversas situações e necessidades que desafiam a capacidade do time em conseguir realizar a transição do projeto entre diferentes escalas, manter a organização do artefatos produzidos e permitir o melhor aproveitamento dos recursos disponíveis. 
-
+Ambientes de desenvolvimento, pesquisa e inovação têm como atividades inerentes a criação e a experimentação. Projetos de grande porte podem ter início na concepção de provas de conceito ou demonstrações em pequena escala que ganham maior complexidade ou demanda à medida em que expectativas e ideias são postas à prova e o projeto se desenvolve. Nesse trajeto de desenvolvimento, há diversas situações e necessidades que desafiam a capacidade do time de conseguir realizar a transição do projeto entre diferentes escalas, manter a organização do artefatos produzidos e permitir o melhor aproveitamento dos recursos disponíveis. 
 
 ---
 
 A exemplo disso, pode-se citar desafios comumente encontrados no ambiente acadêmico:
 
  - Experimentação com diferentes recursos e configurações (e.g., ferramentas, dados e ambientes);
- - Disputa por utilização de recursos de hardware (e.g., processamento e memória primária ou de massa);
+ - Disputa por utilização de recursos de hardware (e.g., processamento e memória);
  - Execução paralela de experimentos de pessoas diferentes em mesmo servidor;
  - Reuso ou extensão de trabalhos de colegas;
  - Compartilhamento de recursos com colaboradores distantes geograficamente.
@@ -64,6 +63,7 @@ Este trabalho tem como objetivo apresentar um conjunto de boas práticas e recom
 
 
 Containers são... **COLOCAR EXPLICAÇÃO E DETALHES SOBRE CONTAINERS/DOCKER**
+
 
 Dentre os motivos para se utilizar a organização de projetos e experimentações com containers podem ser citados:
 
